@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3001/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3001/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3001/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3001/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style>body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvaW5kZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksK0NBQStDO0lBQy9DLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztJQUNYLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsc0JBQXNCO0lBQ3RCLFdBQVc7SUFDWCxlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGlCQUFpQjtJQUNqQixZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixVQUFVO0lBQ1Ysa0JBQWtCO0lBQ2xCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgZm9udDogMTRweCBcIkNlbnR1cnkgR290aGljXCIsIEZ1dHVyYSwgc2Fucy1zZXJpZjtcbiAgICBtYXJnaW46IDIwcHg7XG59XG5cbm9sLCB1bCB7XG4gICAgcGFkZGluZy1sZWZ0OiAzMHB4O1xufVxuXG4uYm9hcmQtcm93OmFmdGVyIHtcbiAgICBjbGVhcjogYm90aDtcbiAgICBjb250ZW50OiBcIlwiO1xuICAgIGRpc3BsYXk6IHRhYmxlO1xufVxuXG4uc3RhdHVzIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xufVxuXG4uc3F1YXJlIHtcbiAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICM5OTk7XG4gICAgZmxvYXQ6IGxlZnQ7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgIGxpbmUtaGVpZ2h0OiAzNHB4O1xuICAgIGhlaWdodDogMzRweDtcbiAgICBtYXJnaW4tcmlnaHQ6IC0xcHg7XG4gICAgbWFyZ2luLXRvcDogLTFweDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICB3aWR0aDogMzRweDtcbn1cblxuLnNxdWFyZTpmb2N1cyB7XG4gICAgb3V0bGluZTogbm9uZTtcbn1cblxuLmtiZC1uYXZpZ2F0aW9uIC5zcXVhcmU6Zm9jdXMge1xuICAgIGJhY2tncm91bmQ6ICNkZGQ7XG59XG5cbi5nYW1lIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG59XG5cbi5nYW1lLWluZm8ge1xuICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG5cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><script charset="utf-8" src="./React App_files/main.71d3be7794a02596a74f.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.bd246465bc55047e2435.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.e9cadb82390f23070ded.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.8e125a520afb640e2533.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.3db441a75d1249709f72.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.11569f77bab7f6f47d21.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.2103741c57c9ff60b6b8.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.911a3bd546dff4c3ee64.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.f3a2a08ae0506b1b161c.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.5f9aed0efeea8c296e03.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.b3405c50dcc315550f53.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.7455a93f7c18c8d27120.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.787499386a4ab3e2e0f9.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.47aea37fa71f64780279.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.610624e21828ae757d48.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.97985518640f921a4324.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.54467869a452961ac56e.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.99ddafcfb8d6c0d7eef3.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.e34bc9b27ebcadee8b94.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.60b1da54f96162d4170a.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.352a85287e72642d297c.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.93866922afad88dce5e8.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.ed80e4049f041f134a35.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.9aa6a90ff3a67876e698.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.4a9aa11b66bdcee3c4bf.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.9c4d1a5dfe30d89a6ca0.hot-update.js"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="game"><div class="game-board"><div><div class="status">Next player: X</div><div class="board-row"><button class="square">X</button><button class="square"></button><button class="square"></button></div><div class="board-row"><button class="square">O</button><button class="square">O</button><button class="square"></button></div><div class="board-row"><button class="square">X</button><button class="square">X</button><button class="square">O</button></div></div></div><div class="game-info"><div></div><ol></ol></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/vendors_main.chunk.js"></script><script src="./React App_files/main.chunk.js"></script>
+
+</body></html>

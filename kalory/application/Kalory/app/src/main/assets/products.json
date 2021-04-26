@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 5449000000996,
+      "name": "Coca Cola",
+      "cal": 42,
+      "tag": "coca"
+    },
+    {
+      "id": 3017620422003,
+      "name": "Nutella",
+      "cal": 539,
+      "tag": "nutella"
+    },
+    {
+      "id": 8076800195057,
+      "name": "Spaghetti n.5 - Barilla",
+      "cal": 359,
+      "tag": "pates"
+    },
+    {
+      "id": 7610632002001,
+      "name": "Avocat",
+      "cal": 160,
+      "tag": "avocat"
+    },
+    {
+      "id": 7622210449283,
+      "name": "Prince - Lu",
+      "cal": 465,
+      "tag": "prince"
+    },
+    {
+      "id": 3229820129488,
+      "name": "Muesli Raisin, Figue, Abricot - Bjorg",
+      "cal": 341,
+      "tag": "muesli cereal"
+    },
+    {
+      "id": 3175680011480,
+      "name": "Biscuit Sésame - Gerblé",
+      "cal": 484,
+      "tag": "biscuit"
+    },
+    {
+      "id": 3228857000166,
+      "name": "Harrys 100% mie pain de mie sans croute complet",
+      "cal": 241,
+      "tag": "pain de mie"
+    },
+    {
+      "id": 3501890002152,
+      "name": "Soupe 3 poissons aux algues - Sainte Barbe",
+      "cal": 30,
+      "tag": "soupe poisson"
+    },
+    {
+      "id": 7613034626844,
+      "name": "Céréales chocapic - Nestlé",
+      "cal": 385,
+      "tag": "cereal chocolat"
+    },
+    {
+      "id": 3033710065967,
+      "name": "Nesquik - Nestlé",
+      "cal": 376,
+      "tag": "chocolat chaud"
+    },
+    {
+      "id": 3046920022651,
+      "name": "Lindt Chocolate Excellence",
+      "cal": 566,
+      "tag": "chocolat"
+    },
+    {
+      "id": 3256540000698,
+      "name": "Pains au lait - Pasquier",
+      "cal": 367,
+      "tag": "pain au lait"
+    },
+    {
+      "id": 3392460480827,
+      "name": "Biscottes heudebert",
+      "cal": 404,
+      "tag": "biscotte"
+    },
+    {
+      "id": 3155250358788,
+      "name": "Primevère Bio doux Tartine & Cuisson",
+      "cal": 495,
+      "tag": "beurre"
+    },
+    {
+      "id": 3760020507350,
+      "name": "Pur beurre de cacahuète - Jardin Bio",
+      "cal": 625,
+      "tag": "beurre cacahuète"
+    },
+    {
+      "id": 3229820787015,
+      "name": "Lait d’amande sans sucres",
+      "cal": 25,
+      "tag": "lait vegetal"
+    },
+    {
+      "id": 5410188031072,
+      "name": "Gazpacho - Alvalle",
+      "cal": 45,
+      "tag": "gazpacho"
+    },
+    {
+      "id": 20753030,
+      "name": "Banane",
+      "cal": 72,
+      "tag": "banane"
+    },
+    {
+      "id": 879432,
+      "name": "pomme",
+      "cal": 56,
+      "tag": "pomme "
+    },
+    {
+      "id": 3227061000023,
+      "name": "Le Pur Bœuf - Steaks hachés surgelés - Charal",
+      "cal": 209,
+      "tag": "steak"
+    }
+  ]
+}
